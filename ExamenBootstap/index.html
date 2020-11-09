@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="index.css">
   <title>MARCA</title>
-  <div class="row">
-    <img class="rounded mx-auto d-block" src="logoSuperior.png" width="120px" alt="">
-  </div>
 </head>
+  <div class="container col-md-10 col-sm-12 row">
+    <img class="mx-auto d-none d-md-block" src="Cuidate.PNG" width="120px">
+    <img class="mx-auto"  src="logoSuperior.png" width="120px" alt="">
+  <div>
+  <button type="button" class="btn btn-danger col-sm-12" style="background-color: rgb(189, 5, 5);">Subscríbete</button>
+  </div>
+  <div>
+    <button type="button" class="btn btn-light d-block col-sm-12" style="padding-left: 20px;">Iniciar Sesión</button>
+  </div>
+</div>
 <body>
-  <nav class="container-fluid sticky-top navbar navbar-expand-lg navbar-light" style="background-color: rgb(189, 5, 5);">
+</div>
+  <nav class="container-fluid navbar navbar-expand-lg navbar-light" style="background-color: rgb(189, 5, 5);">
     <div class="container col-10">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class=" collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-left " style="margin-right: 50px;">
           <li class="nav-item active">
             <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,86 +77,94 @@
             <ul class="navbar-nav ml-auto " style="margin-right: 50px;">
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Buscar en marca.com" aria-label="Search">
-                  </form>
-
+                </form>
                 </ul>
       </div>
       </nav>
-      <img class="img-fluid" src="EqiposMexico.PNG" alt="">
+      <img class="img-fluid d-none d-md-block" src="EqiposMexico.PNG" alt="">
       <div class="container" style="padding-top: 40px;">
       <div class="row">
-        <img class="img-fluid" src="Champions.PNG" alt="">
-          <div class="col-md-4">
-          <div class="card mb-4" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16048861060328.jpg" class="card-img" alt="">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h6 class="card-title">Selección Mexicana</h5>
-                  <p class="card-text"><small>La selección Mexicana ya está en Austria para la fecha FIFA</p>
-                </div>
-              </div>
-            </div>
+        <div class="card bg-white border-white text-white col-md-8">
+          <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16049555847132.jpg" class="card-img img-fluid" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">¿Cómo logró Carlos Ortiz ganar en el PGA Tour?</h5>
+            <p class="card-text">Su madre revela su formación, sacrificios...</p>
           </div>
-          <div class="card mb-4" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="EquiposChicos.jpg" class="card-img" alt="">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h6 class="card-title">Liga MX</h5>
-                  <p class="card-text">Rayados y Tigres quedaron a deber en el Apertura 2020</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048750331125.jpg" class="card-img" alt="">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h6 class="card-title">Arsenal 0-3 Aston</h5>
-                  <p class="card-text">El Aston Villa desarma al Arsenal en su casa</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>  
+        </div>
+        <div class="col-md-4 col-xs-12 my-4 ">
+          <ul class="list-unstyled">
+              <li class="media">
+                  <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16048861060328.jpg" width="140px" height="80px" class="mr-3" alt="...">
+                  <div class="media-body">
+                      <h6 class="mt-0 mb-1"><p class="text-dark">La seleccion mexicana ya está en Austra para fecha FIFA</p></h6>
+                  </div>
+              </li>
+              <li class="media my-4">
+                  <img src="EquiposChicos.jpg" class="mr-3" width="140px" height="80px" alt="...">
+                  <div class="media-body">
+                      <h6 class="mt-0 mb-1 "><p class="text-dark" class="text-dark">Rayados y Tigres quedaronn a deber en el Apertura 2020" </p></h6>
+                  </div>
+              </li>
+              <li class="media">
+                  <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048750331125.jpg" width="140px" height="80px" class="mr-3" alt="...">
+                  <div class="media-body">
+                      <h6 class="mt-0 mb-1"><p class="text-dark" class="text-dark">El Aston Villa desarma en su casa al Arsenal</p></h6>
+                  </div>
+              </li>
+          </ul>
+      </div>  
       </div>
     </div>
     <div class="container" style="padding-top: 30px;">
       <div class="card-deck">
+        <div class="col-md-4 col-sm-6">
         <div class="card">
           <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048078930623.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Jonathan Rodríguez es campeón de goleo del Apertura 2020</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><smalall></p>
+          </div>
           </div>
         </div>
+        <div class="col-md-4 col-sm-6">
         <div class="card">
           <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048741667048.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Zlatan Ibrahimovic rescata el partido y el invicto del Milan ante Hellas Verona</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><smalall></p>
+          </div>
           </div>
         </div>
+        <div class="col-md-4 col-sm-12">
         <div class="card">
           <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16048774970533.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Allen repunta y Bills vencen a Seattle</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><smalall></p>
           </div>
         </div>
       </div>
+      </div>
     </div>
     <div class="container" style="padding-top: 40px;">
-      <div class="row">
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class=" container row col-md-10">
+        <div class="col-md-6">
+        <li class="media">
+                  <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048760738023.jpg" width="140px" height="80px" class="mr-3" alt="...">
+                  <div class="media-body">
+                      <h6 class="mt-0 mb-1"><p class="text-dark">Zidane: "El máximo culpable soy yo, porque tengo que buscar soluciones</p></h6>
+                  </div>
+              </li>
+        </div>
+        <div class="col-md-6">
+              <li class="media">
+                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16048830986705.jpg" width="140px" height="80px" class="mr-3" alt="...">
+                <div class="media-body">
+                    <h6 class="mt-0 mb-1"><p class="text-dark">Las polémicas declaraciones del Tuca en el 2020</p></h6>
+                </div>
+            </li>
+        </div>
+     <!-- <div class="card mb-3" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
             <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16048760738023.jpg" class="card-img" alt="">
@@ -172,61 +187,129 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     </div>
+    <div>
+    <div class="row">
     <div class="container col-md-6" style="padding-top: 30px;">
       <div class="card-deck">
         <div class="card">
           <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/09/16048917499216.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Santos golea al Mazatlán y se acomoda en el repechaje </h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><smalall></p>
           </div>
         </div>
         <div class="card">
           <img src="https://e00-us-marca.uecdn.es/claro/assets/multimedia/imagenes/2020/11/09/16048892415317.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Así quedan definidos los playoffs de la MLS</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><smalall></p>
           </div>
         </div>
     </div>
     </div>
-    <div style="padding-top: 30px; background-color: black;">
-      <div class="container text-white" style="background-color: black;">
+    <div class="container col-md-auto col-xs-12 my-3"></div>
+    </div>
+    <div class="d-none d-md-block">
+    <div style="padding-top: 90px;">
+    <div style=" background-color: black;">
+      <div class="container text-white" style="background-color: black; padding-top: 20px;">
         <p class="font-weight-bold" style="text-align: center;">Otras webs de Unidad Editorial</p>
       <hr class="my-3" style="background-color: white;">
-      <div class="row">
-        <ol style="margin-right: 100px;">
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
+      <div class="row col-md-10" style="justify-content: center;">
+        <div style="padding-right: 25px;">
+        <ol>
+          <th class="font-weight-bold">Marca</th>
+          <br></br>
+          <div>App Marca</div>
+          <div>Apuestas Deportivas</div>
+          <div>Clasificación LaLiga</div>
+          <div>Hemeroteca Marca</div>
         </ol>
-        <ol style="margin-left: 100px; margin-right: 100px;">
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
+        </div>
+        <div style="padding-right: 50px; padding-left: 25px;">
+        <ol>
+          <th class="font-weight-bold">Ocio y moda</th>
+          <br></br>
+          <div>Tiramillas</div>
+          <div>JulioModa-Telva</div>
+          <div>BUHO Magazine</div>
+          <div>Traductor</div>
         </ol>
-        <ol style="margin-left: 100px; margin-right: 100px;">
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
+        </div>
+        <div style="padding-right: 50px; padding-left: 25px;">
+        <ol>
+          <th class="font-weight-bold">Unidad Editorial</th>
+          <br></br>
+          <div>El mundo</div>
+          <div>Expansión</div>
+          <div>CuídatePlus</div>
+          <div>Diario Médico</div>
         </ol>
-        <ol style="margin-left: 100px; margin-right: 100px;">
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
-          <div>Julio</div>
+        </div>
+        <div>
+        <ol>
+          <th class="font-weight-bold">Formación y Empleo</th>
+          <br></br>
+          <div>Escuela Unidad Editorial</div>
+          <div>Unidad Editorial</div>
+          <div>Expansión y Empleo</div>
         </ol>
+        </div>
       </div>
     </div>
     </div>
     </div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <p style="text-align: center; " class="font-weight-bold" style="justify-content: center;">Agosto 2018 unidad Editorial Informacion Deportiva, S.L.U. Todos los derechos reservados. </p> <br>
+        <div class="row col-md-15">
+  <ol>
+      <div>Terminos y condiciones de uso </div>
+  </ol>
+      <ol>
+          <div>Politica de privacidad </div>
+      </ol>
+          <ol>
+              <div>politica de cookies </div>
+          </ol>
+              <ol>
+                  <div>certificado por OJD </div>
+              </ol>
+                  <ol>
+                      <div>contacto</div>
+                  </ol>
+                      <ol>
+                          <div>publicidad </div>
+                      </ol>
+                          <ol>
+                              <div>ayuda </div>
+                          </ol>
+                              <ol>
+                                  <div>Nuesto equipo</div>
+                              </ol>
+        </div>
+                          <br>
+        <p style="text-align: center;">Venta de contenidos</p><br><br>
+        <p style="text-align: center;">siguenos en</p>
+        <div class="row col-md-12" style="justify-content: center;">
+          <img src="fb editado.png" width="60" height="50" alt="">
 
+      <div>
+          <img src="tw editado.png" width="60" height="50">
+      </div>
+      <div>
+          <img src="Google-Plus.png" width="90" height="50">
+      </div>
+      <div >
+          <img src="https://img2.freepng.es/20180617/kua/kisspng-knuth-s-up-arrow-notation-symbol-circle-computer-i-wifi-icon-png-5b2623e00bc233.2833298915292262080482.jpg" width="80" height="50">
+      </div>
+      </div>
+    </div>
+    </div>
+</div>
        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
